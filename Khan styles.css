@@ -1,0 +1,88 @@
+body{
+    /* width: 90%;
+    max-width: 900px; */
+    margin: 0;
+    padding: 0 200px;
+    background-color: #999;
+}
+
+header {  
+    line-height: 0;
+    border-bottom: 1px solid rgb(160, 160, 160);
+    display:flex;
+    justify-content: space-evenly;
+}
+
+ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: flex-end;
+    
+    
+}
+select,
+input {
+    color: blue;
+}
+li{
+    margin-right: 10px;
+}
+.H-Logo {
+    width: 200px;
+    height: 30px;
+    margin: 5px 80px;
+    /* background: violet; */
+}
+.B-Logo {
+    width: 450px;
+    height: 300px;
+    position: relative;
+    left: 100px;
+    /* background: violet; */
+    float: left;
+}
+section{
+    /* background: violet; */
+    margin: 50px 0;
+}
+
+a{
+    text-decoration: none;
+}
+h1{
+    font-size: 2em;
+}
+h2{
+    text-align: center;
+    background-color: rgb(240, 230, 211);
+    padding: 50px 50px 100px 50px;
+    border-radius: 0 70% 0 0;
+    position: relative;
+    top: 90px;
+    clear: both;
+    width: 100%;
+}
+.Btn {
+    background-color: blue;
+    padding: 10px;
+    color: white;
+    position: relative;
+    margin-top: 30px;
+    right: 140px;
+}
+
+div {
+    display: block;
+    float: right;
+}
+
+p {
+    margin-bottom: 40px;
+}
+
+select,
+input,
+.H-Logo,
+nav {
+    margin-bottom: 10px;
+}
